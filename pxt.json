@@ -1,0 +1,26 @@
+{
+    "name": "Test snake LCD Micro:bit",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "LCD1in8": "github:H0bbyC0d3r/PXT-WSLCD1in8#e6ad7ac4adaabbd1cfcac83fdcdca2185bef62c2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
